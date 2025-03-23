@@ -1,14 +1,14 @@
 //complete this code
 class Person {
-	constructor(name: string, age: number){
+	constructor(name, age){
            this.name=name;
 		this.age=age;
 
 		get name(){
-			return this.name
+			return `${this.name}`
 		}
-		set age(age:number){
-			return this.age
+		set age(age){
+			return`${this.age}`
 		}
 		
 	}
@@ -26,8 +26,8 @@ constructor(name: string, age: number){
 
 class Teacher extends Person {
 
-	constructor(name: string, age: number){
-	
+	constructor(name,age){
+	super();
 }
 	teach(){
 			return `${this.name}  is teaching`
