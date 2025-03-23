@@ -1,13 +1,13 @@
 //complete this code
 class Person {
 	constructor(name, age){
-           this.name=name;
+        this.name=name;
 		this.age=age;
   }
 		get fullName(){
 			return `${this.name}`
 		}
-	set fullAgeage(value){
+	set fullAge(value){
     this.age=value;
     	return `${this.value}`
 		}
