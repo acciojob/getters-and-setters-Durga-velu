@@ -41,7 +41,7 @@ console.log(person.name);
 
 
 person.fullAge = 30;
-console.log(person.age);
+console.log(person.FullAge);
 
 const student = new Student("Alice", 22);
 student.study(); 
