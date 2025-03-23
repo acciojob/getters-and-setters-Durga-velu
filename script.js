@@ -11,6 +11,7 @@ class Person {
 		}
 	set fullAge(value){
     this.age=value.age;
+		this.age=40
     	return `${this.age}`
 		}
 		
