@@ -1,15 +1,17 @@
+
+
 //complete this code
 class Person {
 	constructor(name, age){
-        this.name=name;
+           this.name=name;
 		this.age=age;
   }
-		get fullName(){
+		get fullname(){
 			return `${this.name}`
 		}
-	set(value){
-    let ans=value;
-    	return `${ans}`
+	set fullAge(value){
+    this.age=value.age;
+    	return `${this.age}`
 		}
 		
 	}
@@ -47,8 +49,8 @@ const person = new Person("John", 25);
 console.log(person.name);
 
 
-person.fullAge = 30;
-console.log(person.fullAge);
+Person.fullAge = 30;
+console.log(Person.fullAge);
 
 const student = new Student("Alice", 22);
 student.study(); 
@@ -60,12 +62,3 @@ teacher.teach();
 window.Person = Person;
 window.Student = Student;
 window.Teacher = Teacher;
-
-
-
-
-
-
-
-
-
