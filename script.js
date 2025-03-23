@@ -7,7 +7,7 @@ class Person {
 		get fullName(){
 			return `${this.name}`
 		}
-	set fullAge(value){
+	set(value){
     this.age=value;
     	return `${this.value}`
 		}
