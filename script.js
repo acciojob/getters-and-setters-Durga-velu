@@ -1,3 +1,4 @@
+//complete this code
 class Person {
 	constructor(name, age){
            this.name=name;
@@ -6,10 +7,9 @@ class Person {
 		get fullName(){
 			return `${this.name}`
 		}
-	set fullAge(value){
-			let values=value
-		
-    return console.log(values)
+	set fullAgeage(value){
+    this.age=value;
+    	return `${this.value}`
 		}
 		
 	}
@@ -60,3 +60,12 @@ teacher.teach();
 window.Person = Person;
 window.Student = Student;
 window.Teacher = Teacher;
+
+
+
+
+
+
+
+
+
