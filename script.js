@@ -8,6 +8,7 @@ class Person {
 		}
 	set fullAge(value){
 			let values=value.split(" ")
+		console.log(values)
 		}
 		
 	}
@@ -32,11 +33,14 @@ class Teacher extends Person {
 			return `${this.name}  is teaching`
 	}
 }
+
+
+
 const person = new Person("John", 25);
 console.log(person.name);
 
 
-person.age = 30;
+person.fullAge = 30;
 console.log(person.age);
 
 const student = new Student("Alice", 22);
