@@ -8,8 +8,8 @@ class Person {
 			return `${this.name}`
 		}
 	set(value){
-    this.age=value;
-    	return `${this.value}`
+    let ans=value;
+    	return `${ans}`
 		}
 		
 	}
