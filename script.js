@@ -6,8 +6,8 @@ class Person {
 		get fullName(){
 			return `${this.name}`
 		}
-		set fullAge(age){
-			return`${this.age}`
+	set fullAge(value){
+			let values=value.split(" ")
 		}
 		
 	}
