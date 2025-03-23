@@ -1,22 +1,21 @@
-//complete this code
 class Person {
 	constructor(name, age){
            this.name=name;
 		this.age=age;
-
-		get fullname(){
+  }
+		get fullName(){
 			return `${this.name}`
 		}
-		set fullage(age){
+		set fullAge(age){
 			return`${this.age}`
 		}
 		
 	}
-}
+
 
 class Student extends Person {
-constructor(name: string, age: number){
-	
+constructor(name,age){
+	super();
 }
 	study(){
 		return `${this.name} is studying`
