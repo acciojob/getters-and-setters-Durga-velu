@@ -11,7 +11,6 @@ class Person {
 		}
 	set fullAge(value){
     this.age=value.age;
-		this.age=40
     	return `${this.age}`
 		}
 		
@@ -51,7 +50,7 @@ console.log(person.name);
 
 
 Person.fullAge = 30;
-console.log(Person.fullAge);
+console.log(fullAge);
 
 const student = new Student("Alice", 22);
 student.study(); 
