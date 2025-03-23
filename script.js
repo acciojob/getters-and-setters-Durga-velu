@@ -7,8 +7,9 @@ class Person {
 			return `${this.name}`
 		}
 	set fullAge(value){
-			let values=value.split(" ")
-		console.log(values)
+			let values=value
+		
+    return console.log(values)
 		}
 		
 	}
@@ -17,10 +18,13 @@ class Person {
 class Student extends Person {
 constructor(name,age){
 	super();
+ this.name=name;
+ this.age=age;
 }
-	study(){
-		return `${this.name} is studying`
-	}
+study(){
+  
+  console.log( this.name +" is studying")
+}
 	
 }
 
@@ -28,9 +32,12 @@ class Teacher extends Person {
 
 	constructor(name,age){
 	super();
+  this.name=name;
+ this.age=age;
 }
 	teach(){
-			return `${this.name}  is teaching`
+ 
+			console.log(   this.name +" is teaching")
 	}
 }
 
@@ -41,7 +48,7 @@ console.log(person.name);
 
 
 person.fullAge = 30;
-console.log(person.FullAge);
+console.log(person.fullAge);
 
 const student = new Student("Alice", 22);
 student.study(); 
