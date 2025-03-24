@@ -3,7 +3,7 @@
 //complete this code
 class Person {
 	constructor(name, age){
-           this.name=name;
+        this.name=name;
 		this.age=age;
   }
 		get fullname(){
