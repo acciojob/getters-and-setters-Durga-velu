@@ -4,10 +4,10 @@ class Person {
         this.name=name;
 		this.age=age;
   }
-		get fullname(){
+		get name(){
 			return `${this.name}`
 		}
-	set Age(value){
+	set age(value){
     this.age=value;
     	
 		}
@@ -43,8 +43,8 @@ class Teacher extends Person {
 
 const person = new Person("John", 25);
 console.log(person.name);
-Person.Age = 30;
-console.log(Person.Age);
+personerson.age = 30;
+console.log(person.age);
 
 const student = new Student("Alice", 22);
 student.study(); 
