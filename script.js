@@ -3,14 +3,14 @@
 //complete this code
 class Person {
 	constructor(name, age){
-           this._name=name;
-		this._age=age;
+           this.name=name;
+		this.age=age;
   }
 		get fullname(){
-			return `${this._name}`
+			return `${this.name}`
 		}
 	set fullAge(value){
-    this._age=value;
+    this.age=value;
     	
 		}
 		
@@ -20,12 +20,12 @@ class Person {
 class Student extends Person {
 constructor(name,age){
 	super();
- this._name=name;
- this._age=age;
+ this.name=name;
+ this.age=age;
 }
 study(){
   
-  console.log( this._name +" is studying")
+  console.log( this.name +" is studying")
 }
 	
 }
@@ -34,19 +34,19 @@ class Teacher extends Person {
 
 	constructor(name,age){
 	super();
-  this._name=name;
- this._age=age;
+  this.name=name;
+ this.age=age;
 }
 	teach(){
  
-			console.log(   this._name +" is teaching")
+			console.log(   this.name +" is teaching")
 	}
 }
 
 const person = new Person("John", 25);
-console.log(person.fullName);
+console.log(person.name);
 person.fullAge = 30;
-console.log(person.fullAge);
+console.log(erson.age);
 
 const student = new Student("Alice", 22);
 student.study(); 
