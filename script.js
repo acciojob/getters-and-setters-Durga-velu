@@ -1,5 +1,3 @@
-
-
 //complete this code
 class Person {
 	constructor(name, age){
@@ -9,7 +7,7 @@ class Person {
 		get fullname(){
 			return `${this.name}`
 		}
-	set fullAge(value){
+	set Age(value){
     this.age=value;
     	
 		}
@@ -45,8 +43,8 @@ class Teacher extends Person {
 
 const person = new Person("John", 25);
 console.log(person.name);
-Person.fullAge = 30;
-console.log(Person.fullAge);
+Person.Age = 30;
+console.log(Person.Age);
 
 const student = new Student("Alice", 22);
 student.study(); 
