@@ -6,14 +6,14 @@ class Person {
         this._name=name;
 		this._age=age;
   }
-		get fullname(){
+		get name(){
 			return `${this._name}`
 		}
 
-	get fullAge(){
+	get age(){
 		return `${this._age}`
 	}
-	set fullAge(value){
+	set age(value){
     this._age=value;
     	
 		}
@@ -49,8 +49,8 @@ class Teacher extends Person {
 
 const person = new Person("John", 25);
 console.log(person.name);
-person.fullAge = 30;
-console.log(person.fullAge);
+person.age = 30;
+console.log(person.age);
 
 const student = new Student("Alice", 22);
 student.study(); 
