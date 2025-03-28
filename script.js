@@ -9,6 +9,10 @@ class Person {
 		get fullname(){
 			return `${this.name}`
 		}
+
+	get fullAge(){
+		return `${this.age}`
+	}
 	set fullAge(value){
     this.age=value;
     	
